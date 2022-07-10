@@ -22,7 +22,7 @@ function sumOfNumbers(arrayOfNumbers) {
     {
     sum += arrayOfNumbers[i]
     }
-  return sum;
+  return (sum);
 
 }
 assignment.sumOfNumbers = sumOfNumbers;
@@ -45,11 +45,11 @@ function countEvenNumbers(arrayOfNumbers) {
   while ( i < length){
     if (arrayOfNumbers[i] % 2 == 0)
     {
-      evenNumbers++;
+      evenNumbers += 1;
     }
     i++;
   }
-  return evenNumbers;
+  return (evenNumbers);
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
